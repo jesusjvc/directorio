@@ -1622,8 +1622,8 @@ return [
     'free_customer_support' => 'Soporte al Cliente sin costo',
     'automated_billing' => 'Facturaci&oacute;n automatizada',
     'login' => 'Ingreso',
-    'what_are_you_looking_for' => 'Qu&eacute; desea encontrar? ',
-    'eg_eye_specialist_masseuse_lawyer' => 'Ej. Oftalm&oacute;logos, Ortodoncistas, Abogados, Esteticistas',
+    'what_are_you_looking_for' => '¿Necesitas ayuda para mejorar tus hábitos?',
+    'eg_eye_specialist_masseuse_lawyer' => '¿Qué tipo de health coach buscas?',
     'find_a_professional' => 'Encuentre un Profesional',
     'public_presence_of_user' => 'Presencia p&uacute;blica de :user',
     'your_public_presence_needs_attention' => 'Su presencia p&uacute;blica requiere atenci&oacute;n',
@@ -1842,4 +1842,3 @@ return [
     'please_mind_about_the_file_size' => 'Remember to keep in mind the total file size of an email. Many email accounts have an email size limit of 2mb. It is advisable to keep a single email with all its attachments below the 2mb mark or it might not be delivered. Another word of advice is file types - emails with .zip and .exe attachments are many times classified as dangerous or spam.',
 
 ];
-

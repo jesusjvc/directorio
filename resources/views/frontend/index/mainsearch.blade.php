@@ -1,9 +1,10 @@
 <form action="{{ url('/search') }}" method="GET" id="top-search">
     <div class="searchbox" style="background-image: url('{{ url('images/mainsearch/general_a.jpg') }}');">
     <div class="title">
-                <span class="highlight">
+                <h1>
                     {{ trans('app.what_are_you_looking_for') }}
-                </span>
+                </h1>
+                <p>Consulta nuestro Directorio Nacional de  Health Coaches Certificados y encuentra un profesional que se adapte a tus necesidades.</p>
     </div>
     <div class="row">
         <div class="col-md-12">
@@ -12,7 +13,7 @@
                     <div class="col-md-10">
                         <div class="form-group">
                             <input name="q" type="text" class="form-control search" id="what" autocomplete="off"
-                                   placeholder="{{ trans('app.what_are_you_looking_for') }} {{ trans('app.eg_eye_specialist_masseuse_lawyer') }}">
+                                   placeholder="{{ trans('app.eg_eye_specialist_masseuse_lawyer') }}">
                         </div>
                         <!--end form-group-->
                     </div>

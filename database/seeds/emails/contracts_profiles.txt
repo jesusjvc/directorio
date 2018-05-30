@@ -1,0 +1,17 @@
+<p>{{profile_business_name}},</p>
+
+<p>Please find attach and review the contract {{contract_title}}</p>
+
+<p>{{custom_message}}</p>
+
+<p>Best regards,</p>
+<p><b>
+{{app_business_name}}</b><br>
+{{app_business_address_1}}
+{{app_business_address_2}}<br>
+{{app_business_city}}<br>
+{{app_business_country}}<br>
+{{app_business_state}} {{app_business_zip}}<br>
+Tel: +{{app_business_phone}}<br>
+Email: {{app_business_email}}<br>
+</p>

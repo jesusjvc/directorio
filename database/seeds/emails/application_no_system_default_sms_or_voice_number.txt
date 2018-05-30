@@ -1,0 +1,3 @@
+<p align="center"><b>IMPORTANT NOTICE</b></p>
+<p>{{sms_gateway_name}} is selected as the default SMS / Voice gateway at {{app_business_url}}. The application has noticed that there is no DID number assigned for the selected default gateway. The application will therefore not be able to process outbound SMS text messages and calls.</p><p><b>Please assign a DID number from {{sms_gateway_name}} to the application.</b></p><p>Have a nice day,</p><p>{{app_business_name}}</p><p>
+ </p>

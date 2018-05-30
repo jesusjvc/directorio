@@ -1,0 +1,18 @@
+<p>{{user_prefix}} {{user_firstname}} {{user_lastname}},</p>
+
+<p>You are now registered as a system user at {{profile_business_name}}.</p>
+
+<p>Since you already have a registered professional account at {{app_business_name}}, use your existing login credentials to log in at <a href="{{app_business_url}}" target="_blank">{{app_business_url}}</a></p>
+
+<p>If you are having troubles logging in, please write to <a href="mailto:{{app_business_email}}" target="_blank">{{app_business_email}}</a></p>
+
+<p>Best regards,</p>
+<p><b>{{profile_business_name}}</b><br>
+{{profile_business_address_1}}
+{{profile_business_address_2}}<br>
+{{profile_business_city}}<br>
+{{profile_business_country}}<br>
+{{profile_business_state}} {{profile_business_zip}}<br>
+Tel: +{{profile_business_phone}}<br>
+Email: {{profile_business_email}}<br>
+</p>

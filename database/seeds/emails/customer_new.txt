@@ -1,0 +1,41 @@
+<p>{{customer_prefix}} {{customer_firstname}} {{customer_lastname}},</p>
+
+<p>You are now officially registered as a customer on the {{app_business_name}} electronic portal.</p>
+
+<p>
+Because different service providers make use of the {{app_business_name}} electronic portal, it might happen that
+more than one service provider registers you as a customer. If the latter is the case, you will be prompted to select
+a service provider account after logging into your account customer account.
+<p>
+
+<p>
+As an example, if you are a customer at ABC Holdings, you will be redirected to the ABC Holdings interface right away.
+But if you are for instance registered as a customer at ABC Holdings as well as at XYZ Consulting, assuming both companies
+make use of the {{app_business_name}} electronic portal, you will be given the choice to select which provider interface
+you want to access, after you have logged in.
+</p>
+
+<p>
+This email however, serves as a confirmation that you are now registered as a customer at {{profile_business_name}}
+</p>
+
+<p>Use the following login credentials to log in at <a href="{{app_business_url}}/customer" target="_blank">{{app_business_url}}/customer</a></p>
+
+<p>
+Username: {{customer_email}} <br>
+Password: {{customer_password}}
+</p>
+
+<p>If you are having troubles logging in, please write to <a href="mailto:{{app_business_email}}" target="_blank">{{app_business_email}}</a></p>
+
+<p>Best regards,</p>
+<p><b>
+{{app_business_name}}</b><br>
+{{app_business_address_1}}
+{{app_business_address_2}}<br>
+{{app_business_city}}<br>
+{{app_business_country}}<br>
+{{app_business_state}} {{app_business_zip}}<br>
+Tel: +{{app_business_phone}}<br>
+Email: {{app_business_email}}<br>
+</p>

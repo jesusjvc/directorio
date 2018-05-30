@@ -1,0 +1,20 @@
+<p>{{customer_prefix}} {{customer_firstname}} {{customer_lastname}},</p>
+
+<p>Your appointment #{{appointment_reference}} at {{provider}} @ {{branch_name}} has been scheduled for the <strong>{{appointment_date}}</strong></p>
+
+<p>
+If you have any questions or whenever you need to reschedule or cancel your appointment, please get in touch with our office at +{{profile_business_phone}}
+</p>
+
+{{additional_text}}
+
+<p>Best regards,</p>
+<p><b>{{profile_business_name}}</b><br>
+{{profile_business_address_1}}
+{{profile_business_address_2}}<br>
+{{profile_business_city}}<br>
+{{profile_business_country}}<br>
+{{profile_business_state}} {{profile_business_zip}}<br>
+Tel: +{{profile_business_phone}}<br>
+Email: {{profile_business_email}}<br>
+</p>

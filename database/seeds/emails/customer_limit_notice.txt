@@ -1,0 +1,20 @@
+<p>{{customer_entity}}, </p>
+
+<p>You have almost reached your customer account limit.</p>
+
+<p>Your account currently has {{usage}} customers registered and based on your monthly subscription ({{service_name}}), your account can have a maxiumum of {{limit}} customer accounts.</p>
+
+<p>If you need to utilize more customer accounts, simply upgrade your subscription.</p>
+
+<p>Best regards,</p>
+
+<p><b>
+{{app_business_name}}</b><br>
+{{app_business_address_1}}
+{{app_business_address_2}}<br>
+{{app_business_city}}<br>
+{{app_business_country}}<br>
+{{app_business_state}} {{app_business_zip}}<br>
+Tel: +{{app_business_phone}}<br>
+Email: {{app_business_email}}<br>
+</p>

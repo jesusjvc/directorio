@@ -1,0 +1,46 @@
+<p>{{customer_entity}},</p>
+
+<p>This is an electronic signature request reminder that the option to sign the attached {{document_type}}, <strong>expires in {{expiredays}} days.</strong></p>
+
+<p>
+Please review the attached {{document_type}} - once you are satisfied and <strong>ready to accept</strong>
+ - simply click on the link below. Once the link has opened, enter your TOKEN and follow the on-screen directions. Note that
+ documents can be electronically signed ONCE only and that documents become legally binding once signed.
+</p>
+
+<p>
+<strong>
+NB: This token expires on {{expiry_date}}
+</strong>
+</p>
+
+<p>
+<table class="promotion" align="center" width="100%" cellpadding="0" cellspacing="0">
+<tr>
+<td align="center">
+<p align="center">
+<strong>YOUR TOKEN</strong>
+<br>
+{{token}}
+</p>
+<p align="center">
+<strong>LINK</strong>
+<br>
+<a href="{{app_business_url}}/signandaccept/{{token}}" target="_blank">{{app_business_url}}/signandaccept/{{token}}</a>
+</p>
+</td>
+</tr>
+</table>
+</p>
+
+<p>Best regards,</p>
+<p><b>
+{{profile_business_name}}</b><br>
+{{profile_business_address_1}}
+{{profile_business_address_2}}<br>
+{{profile_business_city}}<br>
+{{profile_business_country}}<br>
+{{profile_business_state}} {{profile_business_zip}}<br>
+Tel: +{{profile_business_phone}}<br>
+Email: {{profile_business_email}}<br>
+</p>

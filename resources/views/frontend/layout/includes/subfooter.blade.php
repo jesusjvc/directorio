@@ -1,0 +1,1 @@
+{!! Session::get('app_settings')->footer_block !!}

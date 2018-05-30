@@ -1,0 +1,50 @@
+<p>{{user_prefix}} {{user_firstname}} {{user_lastname}},</p>
+
+<p>You are now registered as a professional provider at {{profile_business_name}}. This means that you can now make, accept and manage
+appointments.</p>
+
+<p>Use the following login credentials to log in at <a href="{{app_business_url}}" target="_blank">{{app_business_url}}</a></p>
+
+<p>
+Username: {{user_email}} <br>
+Password: {{user_password}}
+</p>
+
+<p>
+<strong>
+IMPORTANT TO TAKE NOTE OF:
+</strong>
+</p>
+
+<ul>
+<li>
+Location planner - In order to receive appointment requests from the public portal, you HAVE to update your location planner.
+Your location planner is located in your control panel under Public Portal > Location Planner.
+</li>
+<li>
+Your calendar interval decides how to present time slots. For example, every 5 minutes, 10 minutes, 15, 30 or 60 minutes.
+Your agenda interval can ONLY be changed for as long as you have no appointments. We recommend that you update your calendar
+interval now.
+</li>
+<li>
+You can only schedule appointments from your control panel. If you want to allow users to schedule appointments by themselves, you have to complete
+your "public profile" once logged in. This will also list you on the {{app_business_name}} search portal.
+</li>
+<li>
+If you activate your public profile, take note that the default status of ALL appointments made from the outside world, is PENDING.
+You have to accept all appointments not scheduled from your dedicated control panel.
+</li>
+</ul>
+
+<p>If you are having troubles logging in, please write to <a href="mailto:{{app_business_email}}" target="_blank">{{app_business_email}}</a></p>
+
+<p>Best regards,</p>
+<p><b>{{profile_business_name}}</b><br>
+{{profile_business_address_1}}
+{{profile_business_address_2}}<br>
+{{profile_business_city}}<br>
+{{profile_business_country}}<br>
+{{profile_business_state}} {{profile_business_zip}}<br>
+Tel: +{{profile_business_phone}}<br>
+Email: {{profile_business_email}}<br>
+</p>

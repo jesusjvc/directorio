@@ -1,0 +1,25 @@
+<p>{{profile_business_name}}, </p>
+
+<p>This is an automated reminder that your airtime wallet balance is {{balance}}</p>
+
+<p>If your airtime wallet runs out of credit, your account will not be able to process SMS texts or voice calls.</p>
+
+<p>To top up your account, simply log in at <a href="{{app_business_url}}/profilecontrol" target="_blank">{{app_business_url}}/profilecontrol</a> and follow the "Balance Top Up" link in the upper right-hand corner of the page.</p>
+
+<p>
+<strong>
+Remember that when your account is credited with a payment, you have to manually purchase airtime credits from your online control panel.
+</strong>
+</p>
+
+<p>Best regards,</p>
+<p><b>
+{{app_business_name}}</b><br>
+{{app_business_address_1}}
+{{app_business_address_2}}<br>
+{{app_business_city}}<br>
+{{app_business_country}}<br>
+{{app_business_state}} {{app_business_zip}}<br>
+Tel: +{{app_business_phone}}<br>
+Email: {{app_business_email}}<br>
+</p>

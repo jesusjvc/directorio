@@ -1,0 +1,34 @@
+<p>{{profile_business_name}}, </p>
+
+<p>This is a confirmation that the service subscription option <strong>{{service_name}}</strong> has been activated on your account.</p>
+
+<p>You will be billed at <strong>{{service_monthly_charge_per_profile}} {{app_currency}}</strong> per month.</p>
+
+<p>
+<strong>
+Herewith a summary of your subscription service option:
+</strong>
+</p>
+
+<p>
+Option Name: {{service_name}}  <br>
+Monthly Rate: {{service_monthly_charge_per_profile}}  <br>
+Customer Account Limit: {{service_limit_customer_accounts}}  <br>
+Professional Provider Limit: {{service_limit_professional_accounts}}
+</p>
+
+<p>If you have any questions or suggestions, then please, let us know at {{app_business_email}}</p>
+
+<p>Once again, welcome on board!</p>
+
+<p>Best regards,</p>
+<p><b>
+{{app_business_name}}</b><br>
+{{app_business_address_1}}
+{{app_business_address_2}}<br>
+{{app_business_city}}<br>
+{{app_business_country}}<br>
+{{app_business_state}} {{app_business_zip}}<br>
+Tel: +{{app_business_phone}}<br>
+Email: {{app_business_email}}<br>
+</p>

@@ -1,0 +1,2 @@
+<p align="center"><b>IMPORTANT NOTICE</b></p><p>Your account balance at {{sms_gateway_name}} is {{sms_gateway_balance}}</p><p>Please top up your balance to ensure no SMS or call failures</p><p>Have a nice day,</p><p>{{app_business_name}}</p><p>
+ </p>

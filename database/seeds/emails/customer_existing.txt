@@ -1,0 +1,30 @@
+<p>{{customer_prefix}} {{customer_firstname}} {{customer_lastname}},</p>
+
+<p>
+This email serves as a confirmation that you are now registered as a customer at {{profile_business_name}}
+</p>
+
+<p>
+Use your existing login credentials to log in at <a href="{{app_business_url}}/customer" target="_blank">{{app_business_url}}/customer</a>.
+You will be presented with more than one service provider option to choose from. You can select any of these service providers.
+To access the customer portal of {{profile_business_name}}, simply click on the {{profile_business_name}} option once you have logged
+into your customer account.
+</p>
+
+<p>
+Remember that you can always reset your password at <a href="{{app_business_url}}/customer/password/reset" target="_blank">{{app_business_url}}/customer/password/reset</a>
+</p>
+
+<p>If you are having troubles logging in, please write to <a href="mailto:{{app_business_email}}" target="_blank">{{app_business_email}}</a></p>
+
+<p>Best regards,</p>
+<p><b>
+{{app_business_name}}</b><br>
+{{app_business_address_1}}
+{{app_business_address_2}}<br>
+{{app_business_city}}<br>
+{{app_business_country}}<br>
+{{app_business_state}} {{app_business_zip}}<br>
+Tel: +{{app_business_phone}}<br>
+Email: {{app_business_email}}<br>
+</p>

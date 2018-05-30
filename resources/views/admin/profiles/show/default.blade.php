@@ -1,0 +1,5 @@
+@include(Session::get('guard') . '.profiles.show.index')
+@include(Session::get('guard') . '.profiles.show.billing')
+@include(Session::get('guard') . '.profiles.show.serviceoptions')
+@include(Session::get('guard') . '.profiles.show.address_billing')
+@include(Session::get('guard') . '.profiles.show.address_shipping')

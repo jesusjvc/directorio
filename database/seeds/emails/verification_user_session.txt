@@ -1,0 +1,4 @@
+<p>{{user_prefix}} {{user_firstname}} {{user_lastname}}, you are required to verify yourself at {{app_business_name}}</p>
+<p>Your OTP pin is {{otp}}</p>
+<p>Have a nice day,</p>
+<p>{{app_business_name}}</p>

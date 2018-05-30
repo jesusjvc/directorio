@@ -1,0 +1,1 @@
+<p>{{user_firstname}}, this is a test email sent from {{app_business_name}} on {{datetime_text_long}} ({{app_timezone}})</p><p>Have a nice day</p>

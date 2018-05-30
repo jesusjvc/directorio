@@ -1,0 +1,17 @@
+<p>{{profile_business_name}}, </p>
+
+<p>This is an automated confirmation that the DID number +{{profile_did_number}} has been removed from your profile account at {{app_business_name}}</p>
+
+<p>The virtual number +{{profile_did_number}} is no longer linked to your account and you can therefore not use the number +{{profile_did_number}} anymore.</p>
+
+<p>Best regards,</p>
+<p><b>
+{{app_business_name}}</b><br>
+{{app_business_address_1}}
+{{app_business_address_2}}<br>
+{{app_business_city}}<br>
+{{app_business_country}}<br>
+{{app_business_state}} {{app_business_zip}}<br>
+Tel: +{{app_business_phone}}<br>
+Email: {{app_business_email}}<br>
+</p>

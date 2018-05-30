@@ -1,0 +1,23 @@
+<p>{{profile_business_name}}, </p>
+
+<p>This is an automated confirmation that the DID number {{branch_did_number}} has been assigned to the branch {{branch_name}}</p>
+
+<p>The virtual number {{branch_did_number}} is now active and can be used as of this moment.</p>
+
+<p>Remember that {{app_business_name}} does not impose any number capabilities (ie. SMS, Voice, Fax, MMS) to DID numbers. Number capabilities are rather set by the carrier.</p>
+
+<p>
+{{branch_did_number}} has the following capabilities: {{branch_did_number_features}}
+</p>
+
+<p>Best regards,</p>
+<p><b>
+{{app_business_name}}</b><br>
+{{app_business_address_1}}
+{{app_business_address_2}}<br>
+{{app_business_city}}<br>
+{{app_business_country}}<br>
+{{app_business_state}} {{app_business_zip}}<br>
+Tel: +{{app_business_phone}}<br>
+Email: {{app_business_email}}<br>
+</p>

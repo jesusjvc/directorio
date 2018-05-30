@@ -1,0 +1,16 @@
+<p>{{profile_business_name}}, </p>
+
+<p>This is an automated confirmation that your profile information at {{app_business_name}} has been updated.</p>
+
+
+<p>Best regards,</p>
+<p><b>
+{{app_business_name}}</b><br>
+{{app_business_address_1}}
+{{app_business_address_2}}<br>
+{{app_business_city}}<br>
+{{app_business_country}}<br>
+{{app_business_state}} {{app_business_zip}}<br>
+Tel: +{{app_business_phone}}<br>
+Email: {{app_business_email}}<br>
+</p>

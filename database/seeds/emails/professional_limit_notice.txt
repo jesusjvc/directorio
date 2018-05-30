@@ -1,0 +1,20 @@
+<p>{{customer_entity}}, </p>
+
+<p>You have almost reached your professional provider limit.</p>
+
+<p>Your account currently has {{usage}} professionals registered and based on your monthly subscription ({{service_name}}), your account can have a maximum of {{limit}} professional providers.</p>
+
+<p>If you need to utilize more professional accounts, simply upgrade your subscription.</p>
+
+<p>Best regards,</p>
+
+<p><b>
+{{app_business_name}}</b><br>
+{{app_business_address_1}}
+{{app_business_address_2}}<br>
+{{app_business_city}}<br>
+{{app_business_country}}<br>
+{{app_business_state}} {{app_business_zip}}<br>
+Tel: +{{app_business_phone}}<br>
+Email: {{app_business_email}}<br>
+</p>

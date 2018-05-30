@@ -1,0 +1,14 @@
+<p>{{customer_prefix}} {{customer_firstname}} {{customer_lastname}},</p>
+
+<p>Your appointment #{{appointment_reference}} at {{provider}} @ {{branch_name}} scheduled for the {{appointment_date}}, has been <strong>ACCEPTED</strong></p>
+
+<p>Best regards,</p>
+<p><b>{{profile_business_name}}</b><br>
+{{profile_business_address_1}}
+{{profile_business_address_2}}<br>
+{{profile_business_city}}<br>
+{{profile_business_country}}<br>
+{{profile_business_state}} {{profile_business_zip}}<br>
+Tel: +{{profile_business_phone}}<br>
+Email: {{profile_business_email}}<br>
+</p>

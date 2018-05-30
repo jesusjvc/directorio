@@ -1,0 +1,27 @@
+<p>{{profile_business_name}}, </p>
+
+<p>This is an automated confirmation that the billing address {{profile_billing_address_friendly_name}} registered on your account at {{app_business_name}}, has been updated.</p>
+
+<p><b>Herewith the updated information:</b></p>
+
+<p>
+Friendly Name: {{profile_billing_address_friendly_name}} <br>
+Address 1: {{profile_billing_address_address_1}} <br>
+Address 2: {{profile_billing_address_address_2}} <br>
+City: {{profile_billing_address_city}} <br>
+Country: {{profile_billing_address_country}} <br>
+State: {{profile_billing_address_state}} <br>
+Postal Code: {{profile_billing_address_postal_code}}
+</p>
+
+<p>Best regards,</p>
+<p><b>
+{{app_business_name}}</b><br>
+{{app_business_address_1}}
+{{app_business_address_2}}<br>
+{{app_business_city}}<br>
+{{app_business_country}}<br>
+{{app_business_state}} {{app_business_zip}}<br>
+Tel: +{{app_business_phone}}<br>
+Email: {{app_business_email}}<br>
+</p>

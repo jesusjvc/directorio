@@ -1,0 +1,3 @@
+<p align="center"><b>IMPORTANT NOTICE</b></p>
+<p>The application has noticed that there is no DID number provided by <b>{{sms_gateway_name}}</b> assigned to the {{app_business_name}} application. The application will therefore not be able to process outbound SMS text messages and calls.</p><p><b>Please assign a DID number provided by <b>{{sms_gateway_name}}</b> to your application, at your earliest convenience.</b></p><p>Have a nice day,</p><p>{{app_business_name}}</p><p>
+</p>

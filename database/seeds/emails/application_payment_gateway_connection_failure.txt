@@ -1,0 +1,5 @@
+<p align="center"><b>IMPORTANT NOTICE</b></p>
+<p>The {{app_business_name}} has just failed to establish a connection to {{payment_gateway_name}}.</p>
+<p>Take note that this may only be a temporary issue and usually resolves by its own.</p>
+<p>Have a nice day,</p>
+<p>{{app_business_name}}</p>

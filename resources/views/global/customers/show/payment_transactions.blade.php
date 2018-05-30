@@ -1,0 +1,1 @@
+@include(Session::get('guard') . '.payment_transactions.ajaxpaginate.records')

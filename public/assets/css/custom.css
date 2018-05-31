@@ -404,10 +404,7 @@ div.slot-vacant {
 }
 
 .searchbox > .title > h1 {
-    padding: 6px 10px 6px 10px;
     color: #fff;
-    border-width: 1px;
-    border-style: solid;
     white-space: nowrap;
 }
 

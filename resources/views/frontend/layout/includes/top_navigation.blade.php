@@ -1,8 +1,8 @@
 <nav class="navbar navbar-default navbar-static-top m-b-0">
     <div class="navbar-header">
-        <div class="top-left-part"><a class="logo" href="{{ url('/') }}"><b>&nbsp;</b><span
-                        class="hidden-xs"
-                        style="white-space:nowrap;">{{ Session::get('profile_settings')->business_name }}</span></a>
+        <div class="top-left-part"><a class="logo" href="{{ url('/') }}"><b>&nbsp;</b>
+          <img src="{{ url('images/logo.svg') }}" alt="Asociación de Health Coaches Unidos" width="200" height="82">
+        </a>
         </div>
         {{--<ul class="nav navbar-top-links navbar-left hidden-xs">--}}
         {{--<li><a href="javascript:void(0)" class="open-close hidden-xs"><i class="icon-arrow-left-circle ti-menu"></i></a>--}}

@@ -11,10 +11,18 @@
         <ul class="nav navbar-top-links navbar-right pull-right">
             @if(Auth::guard('customer')->user() == null)
                 <li>
-                    <a href="{{ url('/customer/login') }}"> {{ trans('app.login') }} </a>
+                    <a href="https://healthcoachesunidos.org/">Inicio</a>
                 </li>
                 <li>
-                    <a href="{{ url('/register') }}"> {{ trans('app.register') }} </a>
+                    <a href="https://healthcoachesunidos.org/quienes-somos/">¿Quiénes Somos?</a>
+                </li>
+
+                <li>
+                  <a href="https://healthcoachesunidos.org/blog">Blog</a>
+                </li>
+
+                <li>
+                  <a href="https://healthcoachesunidos.org/contacto">Contacto</a>
                 </li>
             @else
                 <li class="dropdown"><a class="dropdown-toggle profile-pic" data-toggle="dropdown" href="#"> <b
